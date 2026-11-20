@@ -1,0 +1,27 @@
+# Data files
+data/
+*.h5
+*.h5ad
+*.hdf5
+*.mtx
+*.mtx.gz
+*.csv.gz
+*.tsv.gz
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Environments and secrets
+.env
+.venv/
+venv/
+
+# macOS
+.DS_Store
+._*
+
+# Temporary files
+*.tmp
+*.log
