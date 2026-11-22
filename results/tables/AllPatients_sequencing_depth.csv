@@ -1,0 +1,7 @@
+patient,population,n_cells,median_counts_per_cell,median_genes_per_cell
+CID3921,Cancer Cycling,64,25800.0,4897.5
+CID3921,Cancer Her2 SC,377,28827.0,5052.0
+CID4066,Cancer Cycling,112,20736.5,4197.5
+CID4066,Cancer Her2 SC,393,16687.0,3690.0
+CID45171,Cancer Cycling,236,10658.0,2725.5
+CID45171,Cancer Her2 SC,567,13723.0,3022.0

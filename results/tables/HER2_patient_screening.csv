@@ -1,0 +1,6 @@
+patient,clinical_subtype,total_cells,cancer_epithelial_cells,cancer_her2_sc_cells,cancer_cycling_cells,other_cancer_labels,included_in_analysis
+CID3586,HER2+,6178,0,0,0,,False
+CID3838,HER2+,2353,0,0,0,,False
+CID3921,HER2+,3024,441,377,64,,True
+CID4066,HER2+,5309,521,393,112,Cancer LumA SC (8); Cancer LumB SC (6); Cancer Basal SC (2),True
+CID45171,HER2+,2447,813,567,236,Cancer LumB SC (9); Cancer Basal SC (1),True
