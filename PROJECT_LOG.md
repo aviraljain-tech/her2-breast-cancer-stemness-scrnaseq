@@ -559,6 +559,8 @@ Also created:
 | 2026-11-22 | Report detection % and mean expression (including zeros) | Two complementary, easy-to-explain summaries |
 | 2026-11-22 | No ML, trajectory inference or CytoTRACE2 at this stage | Keep the analysis defensible and explainable |
 | 2026-11-22 | Treat detection-% differences as depth-sensitive; record median counts/genes per group | The CID3921 Her2 SC > Cycling differences reversed in CID4066 in line with the depth difference |
+| 2026-11-22 | Publish as a public GitHub repo `aviraljain-tech/her2-breast-cancer-stemness-scrnaseq`, with no licence file for now (default copyright) and a 'How to cite' section | CV visibility while keeping all rights; the name avoids implying ML; a licence can be added later |
+| 2026-11-22 | Old manually saved QC plots moved to `data/old_manual_plots/` (untracked) | Superseded by the script's per-patient QC violins |
 | 2026-11-22 | Report positive-cell means together with n positive cells | Means from very few cells are unreliable and must be visible as such |
 | 2026-11-22 | Rebuild raw `CID3921.h5ad` from `layers["counts"]` rather than re-reading the `.mtx` | Counts were verified identical to the original (row sums equal `nCount_RNA`); faster and less memory |
 
@@ -566,7 +568,7 @@ Also created:
 
 ## 11. Next steps [PLANNED]
 1. ~~Reproducible script~~ **[DONE, §6.10]**: verified on the Mac; versions pinned.
-2. Move the three old QC plots from the project root into an untracked folder.
-3. Review the README wording.
+2. ~~Move old QC plots~~ **[DONE]**.
+3. ~~Review the README~~ **[DONE]**: approved; citation section added.
 4. Publish to GitHub (no data files): add the remote, push, and add a short repository description.
 5. Optional future work (listed in the README): multi-gene signature scores, depth-aware or pseudobulk comparisons, other subtypes, spatial data.
